@@ -6,7 +6,6 @@
   } 
   .about-containers{
     flex-wrap:wrap;
-
   }
 
     
@@ -30,19 +29,9 @@
       display: block;
 
     }
-    #about{
-      margin-top: -25rem;
-      margin-bottom: 5rem;
-      display: flex;
-  flex-direction: column;
-  gap: 2rem;
-    }
-    #contact{
-      margin-top: -15rem;
-    }
-    footer{
-      margin-top: -25rem;
-    }
+    
+    
+  
     .arrow{
       display: none;
     }
@@ -63,20 +52,18 @@
     }
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
   #contact,footer{
     height: 40vh;
-    margin-top:1rem;
-
   }
   #about{
-    margin-top: -5rem;
+    margin-top: 5rem;
   }
   #profile{
     height: 75vh;
     margin-bottom: 0;
-
   }
+
   article{
     font-size: 1rem;
   }
@@ -84,7 +71,18 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers, .contact-info-upper-container,.btn-container{
+  .about-containers{
+  display: block;
+
+  }
+  .details-containers{
+    margin: 2rem 0;
+  }
+  .color-container{
+    width: 70%;
+   margin: 2.4rem auto;
+  }
+   .contact-info-upper-container,.btn-container{
     flex-wrap: wrap;
   }
 .contact-info-container{
@@ -123,7 +121,13 @@
 }
 .text-container{
   text-align: justify;
-
 }
 
 }
+
+
+ /*  claude generated code*/
+ /* Large screens */
+
+
+ /* ===== For screens up to 1200px (small laptops, large tablets) ===== */
