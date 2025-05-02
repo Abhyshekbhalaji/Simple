@@ -132,9 +132,7 @@
 
 }
 @media screen and (max-width:400px){
-  #about{
-    margin-top: -10rem;
-  }
+  
   .contact-info-upper-container{
     flex-wrap: wrap;
   }
