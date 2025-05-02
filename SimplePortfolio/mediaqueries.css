@@ -59,6 +59,13 @@
   #contact,footer{
     height: 40vh;
   }
+  .btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
  
   
   #profile{
